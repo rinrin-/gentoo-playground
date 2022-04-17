@@ -1,0 +1,2 @@
+  Copyright 2022 Rinrin<rinrin@imbrian.org>. Distributed under the terms of the GNU
+  General Public License version 2.
