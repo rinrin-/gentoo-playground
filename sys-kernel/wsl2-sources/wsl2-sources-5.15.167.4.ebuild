@@ -1,6 +1,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI="7"
 ETYPE="sources"
 KEYWORDS="*"
 
@@ -14,9 +14,9 @@ detect_arch
 
 RDEPEND="virtual/linux-sources"
 
-DESCRIPTION="Microsoft WSL2 Standard Linux 5.10.102.1"
+DESCRIPTION="Microsoft WSL2 Standard Linux 5.15.167.4"
 
-SRC_URI="https://github.com/microsoft/WSL2-Linux-Kernel/archive/refs/tags/linux-msft-wsl-5.10.102.1.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/microsoft/WSL2-Linux-Kernel/archive/refs/tags/linux-msft-wsl-5.15.167.4.tar.gz -> ${P}.tar.gz"
 
 src_unpack() {
 	cd "${WORKDIR}"
